@@ -97,7 +97,6 @@ button:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -108,7 +107,6 @@ button:hover {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -144,4 +142,61 @@ button:hover {
 
 .mySlides img{
     max-width: 1000px;
+}
+
+#tickets{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Footer information --socials--directions--contact info-- */
+footer{
+    display: flex;
+    background-color: rgba(0,0,0,0.25);
+}
+/* Social box */
+#socials{
+    border-right: 1px solid black;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#socials ul{
+    padding: 0;
+    list-style-type: none;
+}
+#socials ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#socials img{
+    margin-bottom: -5px;
+}
+
+#directions{
+    width: 70%;
+}
+.driveIn{
+    border-right: 1px dotted black;
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+.flyIn{
+    border-right: 1px solid black;
+    float: left;
+    width:50%;
+}
+.flyIn ul{
+    list-style-type: none;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+
+#contactInfo{
+    width: auto;
+}
+#contactInfo ul{
+    list-style-type: none;
+    padding: 0;  
 }
