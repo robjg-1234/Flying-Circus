@@ -8,6 +8,9 @@ body {
     margin: 0;
     background:linear-gradient(to bottom, rgb(107, 98, 193), rgb(74, 73, 96));
 }
+ul{
+    list-style-type: none;
+}
 
 nav {
     margin: 10px;
@@ -50,7 +53,6 @@ section{
 }
 h2{
     text-align: center;
-    width: fit-content;
 }
 button{
     background-color: rgba(16, 16, 87, 0.5);
@@ -148,6 +150,19 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* Schedule section */
+#schedule{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(46, 45, 80, 0.258);
+
+    
+}
+
+hr{
+    border-color: black;
+    margin: 0px;
+}
 /* Footer information --socials--directions--contact info-- */
 footer{
     display: flex;
@@ -162,7 +177,6 @@ footer{
 }
 #socials ul{
     padding: 0;
-    list-style-type: none;
 }
 #socials ul li{
     padding-top: 5px;
@@ -188,7 +202,6 @@ footer{
     width:50%;
 }
 .flyIn ul{
-    list-style-type: none;
     font-size: 0.8em;
     padding-left: 10px;
 }
@@ -197,6 +210,31 @@ footer{
     width: auto;
 }
 #contactInfo ul{
-    list-style-type: none;
     padding: 0;  
+}
+/* tickets.html */
+#admissions{
+    display: flex;
+}
+
+#regularAdmission{
+    float: left;
+    width: 50%;
+}
+
+#scoutAdmission{
+    float: left;
+    width: 50%;
+}
+#groupRates{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#balloon{
+    overflow: hidden;
+    margin: 10px;
+}
+#bal{
+    margin-left: 10px; 
 }
