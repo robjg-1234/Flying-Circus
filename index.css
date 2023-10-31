@@ -240,6 +240,9 @@ footer{
 }
 
 /* rides */
+#plane{
+    margin-top: 10px;
+}
 
 .description{
     background-color: rgba(0, 0, 0, 0.15);
